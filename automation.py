@@ -17,7 +17,7 @@ last.send_keys(PassForm)
 Submit = web.find_element_by_xpath('/html/body/div[1]/div[2]/div[1]/div[1]/div/form[3]/div[3]/div/div/div/div[1]/button')
 Submit.click()
 
-time.sleep(4)
+time.sleep(6)
 
 Submit2 = web.find_element_by_xpath('/html/body/div[1]/div[2]/div/div[2]/a[4]/span[1]')
 Submit2.click()
@@ -26,3 +26,7 @@ time.sleep(2)
 
 Submit3 = web.find_element_by_xpath('/html/body/div[5]/div[2]/div[4]/div/div/div[2]/div/div[2]/button')
 Submit3.click()
+
+time.sleep(10)
+
+exit()
