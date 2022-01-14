@@ -15,11 +15,14 @@ last = web.find_element_by_xpath('/html/body/div[1]/div[2]/div[1]/div[1]/div/for
 last.send_keys(PassForm)
 
 Submit = web.find_element_by_xpath('/html/body/div[1]/div[2]/div[1]/div[1]/div/form[3]/div[3]/div/div/div/div[1]/button')
+# Submit = web.find_element_by_xpath('/html/body/div[1]/div[2]/div/div[2]/a[4]')
 Submit.click()
-
+# //*[@id="top-control-reboot"]
+#
 time.sleep(4)
 
-Submit2 = web.find_element_by_xpath('/html/body/div[1]/div[2]/div/div[2]/a[4]/span[1]')
+# Submit2 = web.find_element_by_xpath('/html/body/div[1]/div[2]/div/div[2]/a[4]/span[1]')
+Submit2 = web.find_element_by_xpath('/html/body/div[1]/div[2]/div/div[2]/a[4]')
 Submit2.click()
 
 time.sleep(2)
