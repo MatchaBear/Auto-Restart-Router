@@ -1,7 +1,8 @@
-import By as By
+
 from selenium import webdriver
 # from .edge.webdriver import WebDriver as ChromiumEdge
 import time
+import By as By
 
 time.sleep(3)
 # driver_path = 'C/Windows'
