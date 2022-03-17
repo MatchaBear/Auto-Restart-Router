@@ -2,7 +2,7 @@
 from selenium import webdriver
 # from .edge.webdriver import WebDriver as ChromiumEdge
 import time
-import By as By
+# import By as By
 
 time.sleep(3)
 # driver_path = 'C/Windows'
@@ -35,10 +35,11 @@ Submit2 = web.find_element_by_xpath('/html/body/div[1]/div[2]/div/div[2]/a[4]/sp
 Submit2.click()
 # click Reboot button
 
+# wait for the popup to show
 time.sleep(2)
+# wait for the popup to show
 
 # click Yes at the popup to reboot
-# Submit3 = web.find_element_by_xpath('/html/body/div[5]/div[2]/div[4]/div/div/div[2]/div/div[2]/button')
-Submit3 = web.find_element(by=By.XPATH, value='/html/body/div[5]/div[2]/div[4]/div/div/div[2]/div/div[2]/button')
-# Submit3.click()
+Submit3 = web.find_element_by_xpath('/html/body/div[5]/div[2]/div[4]/div/div/div[2]/div/div[2]/button')
+Submit3.click()
 # click Yes at the popup to reboot
