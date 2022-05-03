@@ -27,7 +27,7 @@ Submit.click()
 # click Login button
 
 # wait to load page after logging in
-time.sleep(4)
+time.sleep(8)
 # wait to load page after logging in
 
 # click Reboot button
